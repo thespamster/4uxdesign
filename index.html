@@ -5,10 +5,12 @@
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="Gavin's CV site where you can download a pdf copy of his latest CV.">
 
-        <!--  link to custom css code / bootstrap v5.3 cdn & font-awesome v4.7 cdn -->
+        <!--  link to custom css code & font-awesome v6 cdn kit -->
 
         <link rel="stylesheet" href="assets/style.css" type="text/css">
         
+        
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
@@ -16,7 +18,7 @@
         <!-- browser tab title and a custom icon for the website -->
 
         <title>G.W.Brown, BSc - CV</title>
-        <link rel="shortcut icon" href="assets/img/favicon_128.ico">
+        <link rel="shortcut icon" href="../assets/favicon.ico">
     </head>
     <body>
         <div id="main-style">
@@ -28,20 +30,21 @@
             </div>
             <div id="main-text">
                 <p id="changingText"></p>
-                <span id="dotCounter">
-                    <i class="fa fa-circle" aria-hidden="true"></i>
-                    <i class="fa fa-circle-o" aria-hidden="true"></i>
-                    <i class="fa fa-circle-o" aria-hidden="true"></i>
-                    <i class="fa fa-circle-o" aria-hidden="true"></i>
-                </span>
+            </div>
+            <div id="dotCounter">
+                <i class="fa-regular fa-circle"></i>
+                <i class="fa-regular fa-circle"></i>
+                <i class="fa-regular fa-circle"></i>
+                <i class="fa-regular fa-circle"></i>
             </div>
             <div id="center-button">
-                <button class="bigButton">Big Red Button</button>
+                <button class="bigButton">Don't Press</button>
             </div>
         </div>
 
-    <!-- bootstrap v5.3 javascript cdn. placed at end of code to prevent it loading before the html does  -->
+        <!-- javascript cdn & custom javascript link placed at end of code to prevent it loading before the html does  -->
 
-    <script src="assets/script.js"></script>
-</body>
+        <script src="assets/script.js"></script>
+        <script src="https://kit.fontawesome.com/198266a550.js" crossorigin="anonymous"></script>
+    </body>
 </html>

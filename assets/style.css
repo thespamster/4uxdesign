@@ -1,4 +1,6 @@
 
+/* ---- main image (credit in readme) ---- */
+
 body {
     width: 100%;
     height: 100dvh;
@@ -8,6 +10,32 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+
+/* ---- big red button (credit in readme) ---- */
+
+.bigButton {
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 8px 0 rgb(183,9,0), 
+    0 15px 20px rgba(0,0,0,.35);
+    border-radius: 50%;
+    background-color: red;
+    font-family: "Roboto", sans-serif;
+    font-size: 2em;
+    border: none;
+    text-shadow: 0 3px 1px rgba(122,17,8,0.8);
+    color: white;
+    margin: 20px;
+}
+
+.pressed { 
+    padding-top: 3px;
+    transform: translateY(4px);
+    box-shadow: 0 4px 0 rgb(183,0,0),
+      0 8px 6px rgba(0,0,0,.45);
+  }
+
+/* ---- main styling for site ---- */
 
 #main-style {
     width: 100%;
@@ -30,51 +58,43 @@ body {
 #cv-style{
     width: 100%;
     text-align: center;
+    margin: 10px;
 }
 
 #main-text {
-    width: 50%;
-    min-height: 20dvh;
+    width: 60%;
+    min-height: 10dvh;
     text-align: center;
-    margin: 0 auto;
+    margin:0 auto;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(0,0,0, 0.4);
+    color: rgb(249, 246, 243);
+    text-shadow: 0 3px 1px rgba(242, 28, 8, 0.8);
+    backdrop-filter: blur(1px);
 }
 
-.bigButton {
-    width: 200px;
-    height: 200px;
-    box-shadow: 0 8px 0 rgb(183,9,0), 
-    0 15px 20px rgba(0,0,0,.35);
-    border-radius: 50%;
-    background-color: red;
-    font-family: "Roboto", sans-serif;
-    font-size: 2em;
-    border: none;
-    text-shadow: 0 3px 1px rgba(122,17,8,0.8);
-    color: white;
+#dotCounter {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 #center-button {
     display: flex;
-    justify-content: center;     
+    justify-content: center;
 }
 
-.pressed { 
-    padding-top: 3px;
-    transform: translateY(4px);
-    box-shadow: 0 4px 0 rgb(183,0,0),
-      0 8px 6px rgba(0,0,0,.45);
-  }
-  
+/* ---- responsiveness for mobile screens ---- */
+
   @media screen and (max-width: 600px) {
 
-    #heading {
-        
+    .bigButton {
+        width: 100px;
+        height: 100px;
+        font-size: 1.5em;
+      }
+
+    #heading {   
         font-size: 3em;
     }
-
-   .bigButton {
-    width: 150px;
-    height: 150px;
-    
-  }
 }
