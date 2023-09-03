@@ -2,9 +2,9 @@
 /*  set a couple of global variables and a couple of events */
 
 window.setInterval(timedText, 5000);
-button[0].addEventListener("click", clickedButton);
 var textCount = 0
 var button = document.getElementsByTagName("button");
+button[0].addEventListener("click", clickedButton);
 
 /*  function to press and then unpress the big red button */
 
