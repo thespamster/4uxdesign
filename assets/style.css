@@ -9,10 +9,10 @@ body {
     background-size: 100% 100dvh;
     background-attachment: fixed;
     background-position: center;
+    
 }
 
 /* ---- big red button (credit in readme) ---- */
-
 .bigButton {
     width: 150px;
     height: 150px;

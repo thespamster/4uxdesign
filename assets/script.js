@@ -23,8 +23,10 @@ function removePress() {
 /*  function to change the text in the main section of the page */
 
 function timedText() { 
-    let textToDisplay = [ "I am a great believer in a minimalist approach to web design. Less is more. Smart design doesn't mean cluttered.", 
-    "Click the icon above to download a copy of my current CV.", "Hobbies include 3-string cigarbox guitar, love a murder mystery read and I am a huge Dr. Who fan.", "Whatever you do don't press the big red button! "];
+    let textToDisplay = [ "I am a great believer in a minimalist approach to web design. Less is more. Smart design means no cluttered.", 
+    "To learn a bit more about me click the icon above to download a copy of my current CV.", 
+    "Hobbies include 3-string cigarbox guitar, love a murder mystery read and I'm a huge fan of Dr. Who.", 
+    "Whatever you do don't press the big red button!!! "];
     var textHere = document.getElementById("changingText");
     var newText = textToDisplay[textCount];
     textHere.innerHTML = newText;
