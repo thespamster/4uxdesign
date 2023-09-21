@@ -59,3 +59,24 @@ function timedText() {
         textCount = 0;
     } 
 }
+
+/*  function to send an email via emailjs */
+
+function sendMail(contactForm) {
+    emailjs.send("gmail","4uxdesign", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.emailaddress.value,
+        "project_request": contactForm.projectsummary.value
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    alert("Cheers! You can also message me on 07423463521.");
+    getElementById("project-form").reset();
+    return false;
+}
