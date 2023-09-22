@@ -82,7 +82,7 @@
 
 #form-style {
     width: 70%;
-    height: 50dvh;
+    min-height: 50dvh;
     margin: 15px auto;
     background-image: linear-gradient(rgb(53, 50, 50), rgb(251, 251, 248));
     display: flex;
