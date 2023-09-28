@@ -24,7 +24,7 @@ viewable here on Github.
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
+* [Awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [Photo by Jessica Lewis: ](https://www.pexels.com/photo/gold-iphone-7-on-top-of-book-beside-macbook-583848/)
 * [Profile icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/profile)
 * [Fontawesome](https://fontawesome.com/)
