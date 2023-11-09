@@ -29,3 +29,4 @@ Inspiration, code snippets, etc.
 * [Profile icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/profile)
 * [Fontawesome](https://fontawesome.com/)
 * [Favicon creator](https://favicon.io/)
+* [mixkit - explosion sound effect](https://mixkit.co/)
