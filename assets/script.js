@@ -22,7 +22,7 @@ function removePress() {
     var button = document.getElementsByClassName("bigButton");
     button[0].classList.remove('pressed');
     explosion.play();
-    setTimeout (closeCall, 1500);
+    explosion.addEventListener("ended", closeCall);
 }
 
 /*  function to change the text in the main section of the page */
