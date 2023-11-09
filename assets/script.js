@@ -1,4 +1,4 @@
-
+var explosion = new Audio('assets/mixkit-masive-explosion-in-battle-2777.wav');
 /*  set a couple of global variables and a couple of events */
 
 window.setInterval(timedText, 5000);
@@ -14,10 +14,15 @@ function clickedButton() {
     setTimeout (removePress, 500);
 }
 
+function closeCall() {
+    window.alert("Nooooooooo!!! Phew, It was just a sound effect. Seriously? It even says 'Don't Press'. Sit down and have a word with yourself.");
+}
+
 function removePress() {
     var button = document.getElementsByClassName("bigButton");
     button[0].classList.remove('pressed');
-    window.alert("Nooooooooo!!! Phew, nothing happened. Seriously? It even says 'do not press'. Sit down and have a word with yourself.");
+    explosion.play();
+    setTimeout (closeCall, 1500);
 }
 
 /*  function to change the text in the main section of the page */
