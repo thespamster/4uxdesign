@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
@@ -30,7 +29,6 @@
     <title>4uxdesign.com</title>
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
-
 <body id="body-style">
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
@@ -51,7 +49,8 @@
     </div>
     </div>
 
-    <!-- Button trigger modal -->
+    <!-- button trigger modal -->
+
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
             <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
@@ -59,7 +58,7 @@
         </div>
     </div>
 
-    <!-- Modal -->
+    <!-- modal -->
 
     <div class="modal fade" id="businessModal" tabindex="-1" aria-labelledby="info about 4uxdesign.com"
         aria-hidden="true">
@@ -70,7 +69,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>My design pholiosophy is a simple one. As a fan of Occam's razor I believe that the simplest solution
+                    <p>Hi, I'm Gavin and my design pholiosophy is a simple one. As a fan of Occam's razor I believe that the simplest solution
                         is very often the best one. Simple code is efficient code. This doesn't mean leaving features out but 
                         rather making sure that the features included are the ones that are needed.
                     </p>
@@ -94,21 +93,31 @@
         </div>
     </div>
     <div class="row d-flex justify-content-center py-4">
-        <div class="col-6 form-style">
-            
-    <div id="form">
-        <form id="project-form" onsubmit="return sendMail(this);" method="POST">
-            <input type="text" name="name" id="fullname" class="form-control" placeholder="Your Name" required />
-            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your Email" required />
-            <textarea rows="10" cols="25" name="projectsummary" id="projectsummary" class="form-control"
-                placeholder="A brief project description..." required></textarea>
-            <button type="submit" id="submit-button-style">Send Project Request</button>
-        </form>
+        <div class="col-6 form-style">           
+            <div id="form">
+                <form id="project-form" onsubmit="return sendMail(this);" method="POST">
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Your Name" required />
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your Email" required />
+                    <textarea rows="10" cols="25" name="projectsummary" id="projectsummary" class="form-control"
+                        placeholder="A brief project description..." required></textarea>
+                    <button type="submit" id="submit-button-style">Send Project Request</button>
+                </form>
+            </div>
+        </div>
     </div>
-    </div>
-</div>
+    <footer>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="col-11 d-flex footer-style">
+                    <div>
+                        <p>© 2024 4uxdesign.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <!-- javascript cdn for font awesome & custom javascript link placed at end of code to prevent it loading before the html does  -->
+    <!-- javascript cdn for custom javascript link placed at end of code to prevent it loading before the html.  -->
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/bootstrap.js"></script>
