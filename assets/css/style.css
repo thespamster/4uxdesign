@@ -1,0 +1,62 @@
+
+
+#body-style {
+    background-color: rgba(255, 255, 255, 0.25);
+    margin: 0 auto;
+    padding: 2%;
+}
+
+/* ---- main styling for site ---- */
+
+#gav-quote {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 3px 1px rgba(94, 93, 93, 0.8);
+    margin: 10px;
+}
+#cv-style{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+.btn {
+    border-radius: 0 !important;
+}
+
+.form-style {
+    background-image: linear-gradient(to bottom left, rgb(68, 62, 62), rgb(255, 255, 255));
+}
+
+#fullname {
+    margin: 2% 20%;
+    border-radius: 0;
+    width: 60%;
+    font-family: "Roboto", sans-serif;
+}
+
+#emailaddress {
+    margin: 2% 20%;
+    border-radius: 0;
+    width: 60%;
+    font-family: "Roboto", sans-serif;
+}
+#projectsummary {
+    margin: 2% 20%;
+    border-radius: 0;
+    width: 60%;
+    height: 20dvh;
+    font-family: "Roboto", sans-serif;
+}
+
+#submit-button-style {
+    margin: 2% 30%;
+    width: 40%;
+    padding: 2%;
+    background-color: green;
+    color: white;
+    border-style: none;
+    box-shadow: 0 2px 0 rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+}
