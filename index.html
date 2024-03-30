@@ -30,6 +30,20 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
 <body id="body-style">
+
+<!-- dismissable alert about cookies -->
+
+<div class="row justify-content-center">
+    <div class="col-11 d-flex">
+      <div class="w-100 alert alert-dark alert-dismissible fade show" role="alert">
+        <div class="d-flex justify-content-center">
+        This site doesn't use cookies. I don't track or store any of your data. 
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
             <div class="col-11">
@@ -39,7 +53,7 @@
     </div>
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
-            <p id="gav-quote"><q>Click on the icon below for a copy of my CV</q></p>
+            <p id="gav-quote"><q>Download my CV</q></p>
         </div>
     </div>
     <div id="cv-style" class="py-4">
@@ -53,7 +67,7 @@
 
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
-            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+            <button type="button" class="btn btn-outline-dark modal-style" data-bs-toggle="modal"
                 data-bs-target="#businessModal">More about 4uxdesign.com</button>
         </div>
     </div>
@@ -65,23 +79,29 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="businessLabel">About 4uxdesign.com</h1>
+                    <h1 class="modal-title fs-5 modal-style" id="businessLabel">About 4uxdesign.com</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <p>Hi, I'm Gavin and my design pholiosophy is a simple one. As a fan of Occam's razor I believe that the simplest solution
+                <div class="modal-body modal-style">
+                    <p>Hi, I'm Gavin and my design pholosophy is a simple one. As a fan of Occam's razor I believe that the simplest solution
                         is very often the best one. Simple code is efficient code. This doesn't mean leaving features out but 
                         rather making sure that the features included are the ones that are needed.
                     </p>
-                    <p>Websites that are coded efficiently work better, have less bugs and will serve their purpose for
+                    <p>Solutions that are coded efficiently work better, have fewer bugs and will serve their purpose for
                         longer. This will save you money and who doesn't want that?
                     </p>
-                    <p>Whether you are looking for a striking but simple landing page or a full e-commerce solution I can
-                        help you by building a site that is tailored to your needs. I build bespoke solutions at a fair 
-                        price. I am a full stack developer which means I understand both the frontend (what you see in your browser)
-                        and the backend (the bit that stores the data, user information, product details, etc).
+                    <p>Here's the nerdy bit. I build solutions using combinations of HTML5, CSS & Javascript. I use libraries such as Bootstrap 
+                        and jQuery, frameworks incl. Flask and Django combined with databases utilising SQL Alchemy and PostgreSQL.
                     </p>
-                    <p>If you would like to speak to me about what I can do for you or your business then feel free to send me 
+                    <p>I maintain my profile on Github a website that developers use to store and share code. My profile can be found
+                        here: <a href="https://github.com/thespamster" target="_blank">Github Profile</a>
+                    </p>
+                    <p>Whether you are looking for a striking landing page or a full e-commerce solution I can
+                        help you by building a site that is tailored to your needs. I build bespoke solutions at a great 
+                        price. As a Full Stack Web Developer I understand both the frontend (what you see in your browser)
+                        and the backend (the bit that stores the data, user information, product details etc).
+                    </p>
+                    <p>If you would like to speak to me about how I can help you or your business then feel free to send me 
                         a message using the form below. I typically respond within 48hrs. If you would like to discuss a project 
                         more urgently then feel free to call me on 07423463521.
                     </p>
@@ -93,7 +113,7 @@
         </div>
     </div>
     <div class="row d-flex justify-content-center py-4">
-        <div class="col-6 form-style">           
+        <div class="col-12 col-md-11 col-lg-8 form-style">           
             <div id="form">
                 <form id="project-form" onsubmit="return sendMail(this);" method="POST">
                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Your Name" required />
