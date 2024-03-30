@@ -82,6 +82,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+.github-style {
+    color:rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+  }
+
 /* ---- custom 404 error page styling ---- */
 
 .style-404 {
