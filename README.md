@@ -1,11 +1,11 @@
-# My CV and a Big Red Button!
+# 4uxdesign.com website plus my CV
 
-A single page site where my CV lives.
+A single page site for my business.
 
-## Description
+## Technologies
 
-This site demos my recently learned skills with HTML, CSS, Javascript and there's a Big Red Button.  
-
+- [Bootstrap5.3](https://getbootstrap.com/) - CSS/Javascript library
+- [Email JS](https://www.emailjs.com/) - send email using Javascript
 
 ## Help
 
@@ -13,20 +13,16 @@ Do not under any circumstances press the big red button.
 
 ## Authors
 
-Contributors names and contact info
+Contributors names and contact info.
 
 Gavin Brown
 [@thespamster](https://www.linkedin.com/in/gavinwbrown/)
 
 ## Version History
 
-viewable here on Github.
+available here on Github.
+
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [Awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [Photo by Jessica Lewis: ](https://www.pexels.com/photo/gold-iphone-7-on-top-of-book-beside-macbook-583848/)
-* [Profile icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/profile)
-* [Fontawesome](https://fontawesome.com/)
+* [Profile icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/profile) - Awesome icons for free. Check them out!
 * [Favicon creator](https://favicon.io/)
-* [mixkit - explosion sound effect](https://mixkit.co/)
