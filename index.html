@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Gavin's CV site where you can download a pdf copy of his latest CV.">
 
-    <!--  link to custom css, Bootstrap5.3 & Google fonts -->
+    <!--  link to custom css, bootstrap5.3 & google fonts -->
 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
@@ -16,9 +16,9 @@
 
     <!-- js to initialise the emailjs service -->
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
-    <script type="text/javascript">
+    <script>
         (function () {
             emailjs.init("9aycvO4U6QlcS3Fzn");
         })();
@@ -29,20 +29,23 @@
     <title>4uxdesign.com</title>
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
+
 <body id="body-style">
 
-<!-- dismissable alert about cookies -->
+    <!-- dismissable alert about cookies -->
 
-<div class="row justify-content-center">
-    <div class="col-11 d-flex">
-      <div class="w-100 alert alert-dark alert-dismissible fade show" role="alert">
-        <div class="d-flex justify-content-center">
-        This site doesn't use cookies. I don't track or store any of your data. 
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <div class="row justify-content-center">
+        <div class="col-11 d-flex">
+            <div class="w-100 alert alert-dark alert-dismissible fade show" role="alert">
+                <div class="d-flex justify-content-center">
+                    This site doesn't use cookies. I don't track or store any of your data.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
+
+    <!-- banner and cv -->
 
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
@@ -61,7 +64,6 @@
             <img src="assets/img/cv.png" alt="cv flat icon" style="width: 250px; height: 250px;">
         </a>
     </div>
-    </div>
 
     <!-- button trigger modal -->
 
@@ -74,7 +76,7 @@
 
     <!-- modal -->
 
-    <div class="modal fade" id="businessModal" tabindex="-1" aria-labelledby="info about 4uxdesign.com"
+    <div class="modal fade" id="businessModal" tabindex="-1" aria-labelledby="businessModal"
         aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -83,26 +85,35 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body modal-style">
-                    <p>Hi, I'm Gavin and my design pholosophy is a simple one. As a fan of Occam's razor I believe that the simplest solution
-                        is very often the best one. Simple code is efficient code. This doesn't mean leaving features out but 
+                    <p>Hi, I'm Gavin and my design philosophy is a simple one. As a fan of Occam's razor I believe that
+                        the simplest solution
+                        is very often the best one. Simple code is efficient code. This doesn't mean leaving features
+                        out but
                         rather making sure that the features included are the ones that are needed.
                     </p>
-                    <p>Solutions that are coded efficiently work better, have fewer bugs and will serve their purpose for
+                    <p>Solutions that are coded efficiently work better, have fewer bugs and will serve their purpose
+                        for
                         longer. This will save you money and who doesn't want that?
                     </p>
-                    <p>Here's the nerdy bit. I build solutions using combinations of HTML5, CSS & Javascript. I use libraries such as Bootstrap 
-                        and jQuery, frameworks incl. Flask and Django combined with databases utilising SQL Alchemy and PostgreSQL.
+                    <p>Here's the nerdy bit. I build solutions using combinations of HTML5, CSS & Javascript. I use
+                        libraries such as Bootstrap
+                        and jQuery, frameworks incl. Flask and Django combined with databases utilising SQL Alchemy and
+                        PostgreSQL.
                     </p>
-                    <p>I maintain my profile on Github a website that developers use to store and share code. My profile can be found
+                    <p>I maintain my profile on Github a website that developers use to store and share code. My profile
+                        can be found
                         here: <a href="https://github.com/thespamster" target="_blank">Github Profile</a>
                     </p>
                     <p>Whether you are looking for a striking landing page or a full e-commerce solution I can
-                        help you by building a site that is tailored to your needs. I build bespoke solutions at a great 
-                        price. As a Full Stack Web Developer I understand both the frontend (what you see in your browser)
+                        help you by building a site that is tailored to your needs. I build bespoke solutions at a great
+                        price. As a Full Stack Web Developer I understand both the frontend (what you see in your
+                        browser)
                         and the backend (the bit that stores the data, user information, product details etc).
                     </p>
-                    <p>If you would like to speak to me about how I can help you or your business then feel free to send me 
-                        a message using the form below. I typically respond within 48hrs. If you would like to discuss a project 
+                    <p>If you would like to speak to me about how I can help you or your business then feel free to send
+                        me
+                        a message using the form below. I typically respond within 48hrs. If you would like to discuss a
+                        project
                         more urgently then feel free to call me on 07423463521.
                     </p>
                 </div>
@@ -112,12 +123,17 @@
             </div>
         </div>
     </div>
+
+    <!-- project request form with emailjs -->
+
     <div class="row d-flex justify-content-center py-4">
-        <div class="col-12 col-md-11 col-lg-8 form-style">           
+        <div class="col-12 col-md-8 col-lg-6 form-style">
             <div id="form">
                 <form id="project-form" onsubmit="return sendMail(this);" method="POST">
-                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Your Name" required />
-                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your Email" required />
+                    <input type="text" name="name" id="fullname" class="form-control" placeholder="Your Name"
+                        required>
+                    <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your Email"
+                        required>
                     <textarea rows="10" cols="25" name="projectsummary" id="projectsummary" class="form-control"
                         placeholder="A brief project description..." required></textarea>
                     <button type="submit" id="submit-button-style">Send Project Request</button>
@@ -125,19 +141,32 @@
             </div>
         </div>
     </div>
+
+    <!-- footer -->
+
     <footer>
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
-                <div class="col-11 d-flex footer-style">
+                <div class="col-11 d-flex justify-content-between footer-style">
                     <div>
-                        <p>© 2024 4uxdesign.com</p>
+                        <span>© 2024 4uxdesign.com</span>
+                    </div>
+                    <div>
+                        <span>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img id="w3c-style" style="border:0;width:88px;height:31px"
+                                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                    alt="Valid CSS!">
+                            </a>
+                        </span>
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- javascript cdn for custom javascript link placed at end of code to prevent it loading before the html.  -->
+    <!-- javascript links  -->
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/bootstrap.js"></script>

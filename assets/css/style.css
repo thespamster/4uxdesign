@@ -82,6 +82,8 @@
     font-family: "Roboto", sans-serif;
 }
 
+/* ---- custom 404 error page styling ---- */
+
 .style-404 {
     height: 100dvh;
     width: 100%;
@@ -97,4 +99,39 @@
     font-size: 1.5em;
     color: rgb(0, 0, 0);
     text-decoration: none;
+  }
+
+  .text-style-404 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+  }
+
+
+  /* ---- turns the w3c sign black & white ---- */
+
+  #w3c-style {
+    filter: grayscale(100%);
+  }
+
+  /* ---- blink code. credit in readme. ---- */
+
+  .blink-me {	
+    animation-name: blink;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 4;
+    }  
+
+  .blink-style {
+    color:rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  @keyframes blink{
+    0%{color:rgb(0, 0, 0);}
+    50%{color:white;}
+    100%{color:rgb(0, 0, 0);}
   }
