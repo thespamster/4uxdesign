@@ -35,7 +35,10 @@
 
 .modal-style {
     font-family: "Roboto", sans-serif;
+}
 
+.modal-edge {
+    border-radius: 0 !important;
 }
 
 .form-style {
