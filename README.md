@@ -1,4 +1,4 @@
-# 4uxdesign.com Website Plus My CV
+# 4uxdesign.com Website & CV
 
 ![](assets/img/amiresponsive.png)
 
@@ -6,6 +6,7 @@ A single page site for my business '4uxdesign'.
 
 ## Technologies
 
+- HTML5
 - [Bootstrap5.3](https://getbootstrap.com/) - CSS/Javascript library.
 - [Email JS](https://www.emailjs.com/) - send email using Javascript.
 
@@ -14,13 +15,13 @@ A single page site for my business '4uxdesign'.
 Browsers tested, Chrome Version 123.0.6312.87 (Official Build) (arm64),
 Safari on iPhone 14 iOS Version 17.4.1 and Google Dev Tools.
 
+- W3C HTML Checker
 ![W3C HTML checker](assets/img/html-checker.png)
-
+- W3C CSS Validator
 ![W3C CSS validator](assets/img/css-validator.png)
-
+- Google Lighthouse
 ![Google Lighthouse Testing](assets/img/glighthouse0324.png)
-
-[amiresponive.com](https://ui.dev/amiresponsive?url=https://www.4uxdesign.com/) - checks responsiveness of site.
+- [amiresponive.com](https://ui.dev/amiresponsive?url=https://www.4uxdesign.com/) - checks responsiveness of site.
 
 ## Author
 
