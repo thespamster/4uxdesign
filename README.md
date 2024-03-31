@@ -1,6 +1,8 @@
 # 4uxdesign.com Website Plus My CV
 
-A single page site for my business.
+![](assets/img/amiresponsive.png)
+
+A single page site for my business '4uxdesign'.
 
 ## Technologies
 
@@ -18,12 +20,15 @@ Safari on iPhone 14 iOS Version 17.4.1 and Google Dev Tools.
 
 ![Google Lighthouse Testing](assets/img/glighthouse0324.png)
 
+[amiresponive.com](https://ui.dev/amiresponsive?url=https://www.4uxdesign.com/) - checks responsiveness of site.
+
 ## Author
 
 Gavin Brown
-[@thespamster](https://www.linkedin.com/in/gavinwbrown/)
+[Linkedin Profile](https://www.linkedin.com/in/gavinwbrown/)
 
 e: gavin.brown@4uxdesign.com
+
 m: 07423463521
 
 ## Version History
