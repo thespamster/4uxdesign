@@ -17,7 +17,7 @@
 #cv-style{
     width: 100%;
     text-align: center;
-    margin: 10px;
+    margin-bottom: 15px;
 }
 
 .banner-style {
@@ -96,7 +96,6 @@
 .footer-style {
     background-color: rgba(0, 0, 0, 0.15);
     color: rgb(0, 0, 0);
-    height: 2rem;
     padding: 5px;
     font-family: "Roboto", sans-serif;
     border-radius: 10px;
@@ -132,13 +131,6 @@
     color: rgb(0, 0, 0);
   }
 
-
-  /* ---- turns the w3c sign black & white ---- */
-
-  #w3c-style {
-    filter: grayscale(100%);
-  }
-
   /* ---- blink code. credit in readme. ---- */
 
   .blink-me {	
@@ -161,3 +153,14 @@
     50%{color:white;}
     100%{color:rgb(0, 0, 0);}
   }
+
+  /* Styling for info divs on each page */
+.row-col9 {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.row-col10 {
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
