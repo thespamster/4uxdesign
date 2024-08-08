@@ -61,36 +61,32 @@
 }
 
 #fullname {
-    margin: 2% 20%;
     border-radius: 10px;
-    width: 60%;
+    margin-top: 10px;
     font-family: "Roboto", sans-serif;
 }
 
 #emailaddress {
-    margin: 2% 20%;
     border-radius: 10px;
-    width: 60%;
+    margin-top: 10px;
     font-family: "Roboto", sans-serif;
 }
 #projectsummary {
-    margin: 2% 20%;
     border-radius: 10px;
-    width: 60%;
-    height: 20dvh;
+    margin-top: 10px;
     font-family: "Roboto", sans-serif;
 }
 
 #submit-button-style {
-    margin: 2% 30%;
-    width: 40%;
-    padding: 2%;
     background-color: green;
     color: white;
     border-style: none;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
     font-family: "Roboto", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .footer-style {
