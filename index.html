@@ -14,6 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto:wght@300;500&display=swap"
         rel="stylesheet">
 
+    <!-- Google Maps API -->
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo-E3IrGi2Bz1bbFplAe3o4VEUzFK0VIo&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+
     <!-- js to initialise the emailjs service -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
@@ -121,8 +125,10 @@
     <!-- Google map -->
     <div class="row d-flex justify-content-center">
         <div class="col-12 col-md-8 d-flex justify-content-center">
-            <div class="col-11 d-flex justify-content-center">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20311.897391956816!2d-3.800714013124258!3d50.47858249236789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486cfc4e496ec4b1%3A0xaaffeacc284064c9!2sBuckfastleigh!5e0!3m2!1sen!2suk!4v1723365163171!5m2!1sen!2suk" class="gmap-style" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col-11 d-flex justify-content-center gmap-style">
+                <gmp-map center="50.48076248168945,-3.7826249599456787" zoom="14" map-id="DEMO_MAP_ID">
+    <gmp-advanced-marker position="50.48076248168945,-3.7826249599456787" title="My location"></gmp-advanced-marker>
+    </gmp-map>
             </div>
         </div>
     </div>

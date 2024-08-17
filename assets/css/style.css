@@ -165,10 +165,13 @@
   width: 600px;
   height: 450px;
   border: 0;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+  border-radius: 10px !important;
   filter: grayscale(100%);
   margin-top: 25px;
+}
+
+gmp-map {
+  height: 100%;
 }
 
 /* placeholder image style */
