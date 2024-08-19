@@ -165,7 +165,6 @@ gmp-map {
   width: 600px;
   height: 450px;
   border: 2px solid rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
   filter: grayscale(100%);
   margin-top: 25px;
 }
