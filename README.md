@@ -2,7 +2,7 @@
 
 ![](assets/img/amiresponsive.png)
 
-A single page site for my business '4uxdesign'.
+A two page site for my business '4uxdesign' including a main page and a portfolio page.
 
 ## Technologies
 
