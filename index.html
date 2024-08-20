@@ -34,14 +34,17 @@
 
 <body class="body-style">
 
-    <!-- dismissable alert about cookies -->
+    <!-- dismissable cookie banner -->
     <div class="row justify-content-center">
-        <div class="col-11 d-flex">
-            <div class="w-100 alert alert-dark alert-dismissible fade show" role="alert">
-                <div class="d-flex justify-content-center">
-                    This site doesn't use cookies. I don't track or store any of your data.
-                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                </div>
+        <div class="col-11 d-flex justify-content-center">
+            <div id="cookieBanner" class="text-center">
+                <p>
+                    This site only uses a cookie to demonstrate how a cookie banner works. The embedded 
+                    Google Map uses the latest Javascript API which doesn't use cookies. This site does 
+                    not track you. Click the 'Accept Cookie' button to accept the cookie and make this 
+                    banner disappear.
+                </p>
+                <button id="acceptCookies">Accept Cookie</button>
             </div>
         </div>
     </div>
