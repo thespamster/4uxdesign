@@ -28,7 +28,7 @@ document.getElementById("cookieBanner").style.display = "none"; // hides the coo
 // function to set a cookie when the 'accept cookies' button is pressed
 document.getElementById("acceptCookies").addEventListener("click", function() {
     console.log("Button clicked, cookie set");
-    document.cookie = "=cookiesAccepted=YES; expires=Thu, 31 Dec 3000 12:00:00 UTC; path=/"; // sets a cookie
+    document.cookie = "cookiesAccepted=YES; expires=Thu 31 Dec 3000 12:00:00 UTC; path=/"; // sets a cookie
     document.getElementById("cookieBanner").style.display = "none";
 });
     
