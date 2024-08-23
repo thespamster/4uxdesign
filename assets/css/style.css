@@ -185,3 +185,9 @@ box-shadow: 2px 2px 5px rgb(0, 0, 0);
   border: 2px solid #000000;
   border-radius: 10px;
 }
+
+.icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;
+}
