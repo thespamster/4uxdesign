@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Gavin's website for his freelance full-stack web development business, download a pdf copy of his latest CV and view his Portfolio.">
+    <meta name="description"
+        content="Gavin's website for his freelance full-stack web development business, download a pdf copy of his latest CV and view his Portfolio.">
     <meta name="format-detection" content="telephone=no">
 
     <!--  link to custom css, bootstrap5.3 & google fonts -->
@@ -12,11 +13,14 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <!-- Google Maps API -->
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo-E3IrGi2Bz1bbFplAe3o4VEUzFK0VIo&callback=console.debug&libraries=maps,marker&v=beta">
-    </script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo-E3IrGi2Bz1bbFplAe3o4VEUzFK0VIo&callback=console.debug&libraries=maps,marker&v=beta">
+        </script>
 
     <!-- js to initialise the emailjs service -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
@@ -40,12 +44,12 @@
             <div id="cookieBanner" class="text-start">
                 <p>
                     <span class="fw-bold">This site only uses a cookie to control this cookie banner.
-                    Click the 'accept cookie' button to accept the cookie and hide this banner.</span>
+                        Click the 'accept cookie' button to accept the cookie and hide this banner.</span>
                 </p>
                 <p>
-                    Here in the UK the GDPR act requires that you are informed about the use of cookies 
-                    and how user data is handled and processed. Other countries have similar data acts. 
-                    Understanding these legal requirements is vital to ensure that any website build is compliant. 
+                    Here in the UK the GDPR act requires that you are informed about the use of cookies
+                    and how user data is handled and processed. Other countries have similar data acts.
+                    Understanding these legal requirements is vital to ensure that any website build is compliant.
                 </p>
                 <button id="acceptCookies" class="btn btn-modal-style fw-bold">Accept Cookie</button>
             </div>
@@ -66,105 +70,124 @@
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
             <div class="col-11 main-div-style">
-
-    <div class="row">
-        <div class="col-12 d-flex justify-content-center mt-4">
-            <div id="gav-quote"> Download my CV </div>
-        </div>
-    </div>
-    <div id="cv-style" class="py-4">
-        <a href="gwb_cv0624.pdf">
-            <img src="assets/img/cv.png" alt="cv flat icon" style="width: 250px; height: 250px;">
-        </a>
-    </div>
-
-    <!-- button trigger modal -->
-    <div class="row">
-        <div class="col-12 d-flex justify-content-center">
-            <button type="button" class="btn btn-outline-dark modal-style btn-modal-style fw-bold mx-2" data-bs-toggle="modal"
-                data-bs-target="#businessModal">About 4uxdesign</button>
-            <a type="button" class="btn btn-outline-dark modal-style btn-modal-style fw-bold mx-2" href="portfolio.html"> My
-                Portfolio </a>
-        </div>
-    </div>
-
-    <!-- modal -->
-    <div class="modal fade" id="businessModal" tabindex="-1" aria-labelledby="businessModal" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content modal-edge">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5 modal-style" id="businessLabel">About 4uxdesign</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center mt-4">
+                        <div id="gav-quote"> Download my CV </div>
+                    </div>
                 </div>
-                <div class="modal-body modal-style">
-                    <p>Hi, I'm Gavin and '4uxdesign' is my freelance full-stack web development business. I am based in
-                        Buckfastleigh, Devon, UK but work globally. My design
-                        philosophy is a simple one. As a fan of Occam's razor I believe that the simplest solution
-                        is very often the best one. Simple code is efficient code. This doesn't mean leaving features
-                        out but rather making sure that the features included are the ones that are needed.
-                    </p>
-                    <p>Solutions that are coded efficiently work better, have fewer bugs and will serve their purpose
-                        for longer. This will save you money over the lifetime of the product and who doesn't want that?
-                    </p>
-                    <p>Here's the nerdy bit. I build solutions using combinations of HTML5, CSS3, Javascript & Python3. I use
-                        libraries such as Bootstrap5 and jQuery3.7 slim, frameworks incl. Flask and Django combined with PostgreSQL 
-                        databases utilising SQL Alchemy.
-                        This is by no means an exhaustive list and you may be wondering what it all means. The TLDR; is
-                        that these technologies allow me to help you by building the website you need.
-                    </p>
-                    <p>I maintain my profile on Github a website that developers use to store and share code.</p>
-                    <p>My profile can be found here: <a class="fw-bold github-style"
-                            href="https://github.com/thespamster" target="_blank">Github Profile</a>
-                    </p>
-                    <p>Whether you are looking for a striking landing page or a full e-commerce solution I can
-                        help you by building a site that is tailored to your needs. I build bespoke solutions at a great
-                        price. As a full-stack web developer I understand both the frontend (what you see in your
-                        browser) and the backend (the bit that stores the data, user information, product details etc).
-                    </p>
-                    <p>If you would like to speak to me about how I can help you or your business then feel free to send
-                        me a message using the form on this website or by email. I typically respond within 48hrs. If you would like to discuss a
-                        project more urgently then feel free to call me on 07423463521.
-                    </p>
+                <div id="cv-style" class="py-4">
+                    <a href="gwb_cv0624.pdf">
+                        <img src="assets/img/cv.png" alt="cv flat icon" style="width: 250px; height: 250px;">
+                    </a>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-outline-dark btn-modal-style fw-bold" data-bs-dismiss="modal">Close</button>
+
+                <!-- button trigger modal -->
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="button" class="btn btn-outline-dark modal-style btn-modal-style fw-bold mx-2"
+                            data-bs-toggle="modal" data-bs-target="#businessModal">About 4uxdesign</button>
+                        <a type="button" class="btn btn-outline-dark modal-style btn-modal-style fw-bold mx-2"
+                            href="portfolio.html"> My
+                            Portfolio </a>
+                    </div>
+                </div>
+
+                <!-- modal -->
+                <div class="modal fade" id="businessModal" tabindex="-1" aria-labelledby="businessModal"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content modal-edge">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5 modal-style" id="businessLabel">About 4uxdesign</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body modal-style">
+                                <p>Hi, I'm Gavin and '4uxdesign' is my freelance full-stack web development business. I
+                                    am based in
+                                    Buckfastleigh, Devon, UK but work globally. My design
+                                    philosophy is a simple one. As a fan of Occam's razor I believe that the simplest
+                                    solution
+                                    is very often the best one. Simple code is efficient code. This doesn't mean leaving
+                                    features
+                                    out but rather making sure that the features included are the ones that are needed.
+                                </p>
+                                <p>Solutions that are coded efficiently work better, have fewer bugs and will serve
+                                    their purpose
+                                    for longer. This will save you money over the lifetime of the product and who
+                                    doesn't want that?
+                                </p>
+                                <p>Here's the nerdy bit. I build solutions using combinations of HTML5, CSS3, Javascript
+                                    & Python3. I use
+                                    libraries such as Bootstrap5 and jQuery3.7 slim, frameworks incl. Flask and Django
+                                    combined with PostgreSQL
+                                    databases utilising SQL Alchemy.
+                                    This is by no means an exhaustive list and you may be wondering what it all means.
+                                    The TLDR; is
+                                    that these technologies allow me to help you by building the website you need.
+                                </p>
+                                <p>I maintain my profile on Github a website that developers use to store and share
+                                    code.</p>
+                                <p>My profile can be found here: <a class="fw-bold github-style"
+                                        href="https://github.com/thespamster" target="_blank">Github Profile</a>
+                                </p>
+                                <p>Whether you are looking for a striking landing page or a full e-commerce solution I
+                                    can
+                                    help you by building a site that is tailored to your needs. I build bespoke
+                                    solutions at a great
+                                    price. As a full-stack web developer I understand both the frontend (what you see in
+                                    your
+                                    browser) and the backend (the bit that stores the data, user information, product
+                                    details etc).
+                                </p>
+                                <p>If you would like to speak to me about how I can help you or your business then feel
+                                    free to send
+                                    me a message using the form on this website or by email. I typically respond within
+                                    48hrs. If you would like to discuss a
+                                    project more urgently then feel free to call me on 07423463521.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-outline-dark btn-modal-style fw-bold"
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google map -->
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-md-8 d-flex justify-content-center">
+                        <div class="col-11 d-flex justify-content-center">
+                            <gmp-map center="50.48076248168945,-3.7826249599456787" zoom="14" map-id="DEMO_MAP_ID">
+                                <gmp-advanced-marker position="50.48076248168945,-3.7826249599456787"
+                                    title="My location"></gmp-advanced-marker>
+                            </gmp-map>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- project request form with emailjs -->
+                <div class="row d-flex justify-content-center py-4">
+                    <div class="col-12 col-md-8 d-flex justify-content-center">
+                        <div class="col-11 form-style d-flex justify-content-center">
+                            <div id="form">
+                                <form id="project-form" onsubmit="return sendMail(this);" method="POST">
+                                    <input type="text" name="name" id="fullname" class="form-control"
+                                        placeholder="Your Name" required>
+                                    <input type="email" name="email" id="emailaddress" class="form-control"
+                                        placeholder="Your Email" required>
+                                    <textarea rows="10" cols="25" name="projectsummary" id="projectsummary"
+                                        class="form-control" placeholder="Tell me about the project here..."
+                                        required></textarea>
+                                    <button type="submit" id="submit-button-style">Send Project Request</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Google map -->
-    <div class="row d-flex justify-content-center">
-        <div class="col-12 col-md-8 d-flex justify-content-center">
-            <div class="col-11 d-flex justify-content-center">
-                <gmp-map center="50.48076248168945,-3.7826249599456787" zoom="14" map-id="DEMO_MAP_ID">
-    <gmp-advanced-marker position="50.48076248168945,-3.7826249599456787" title="My location"></gmp-advanced-marker>
-    </gmp-map>
-            </div>
-        </div>
-    </div>
-
-    <!-- project request form with emailjs -->
-    <div class="row d-flex justify-content-center py-4">
-        <div class="col-12 col-md-8 d-flex justify-content-center">
-            <div class="col-11 form-style d-flex justify-content-center">
-                <div id="form">
-                    <form id="project-form" onsubmit="return sendMail(this);" method="POST">
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Your Name"
-                            required>
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Your Email"
-                            required>
-                        <textarea rows="10" cols="25" name="projectsummary" id="projectsummary" class="form-control"
-                            placeholder="Tell me about the project here..." required></textarea>
-                        <button type="submit" id="submit-button-style">Send Project Request</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    </div>
-    </div>
     </div>
 
     <!-- footer -->
