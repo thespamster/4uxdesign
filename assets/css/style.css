@@ -94,7 +94,7 @@
     background-color: rgb(166, 3, 3) !important;
     color: rgba(255, 255, 255, 1.0) !important;
     font-family: "Roboto", sans-serif !important;
-    box-shadow: 10px 10px rgba(229, 6, 6, 0.75);
+    box-shadow: 10px 10px rgba(92, 2, 2, 0.75);
 }
 
 .btn-modal-style:hover {
@@ -102,6 +102,8 @@
 }
 
 .form-style {
+    width: 100%;
+    min-height: 60dvh;
     background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
     border-radius: 0;
 }
