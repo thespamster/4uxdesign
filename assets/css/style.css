@@ -3,96 +3,142 @@
 .body-style {
     margin: 0 auto;
     padding: 2%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* cookie banner and button styling */
+#cookieBanner {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15)!important;
+  color: black;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0;
+}
+
+#acceptCookies {
+  background-color: #036320!important;
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  box-shadow: 10px 10px rgba(1, 36, 13, 0.75);
+  font-family: "Roboto", sans-serif !important;
+}
+
+#acceptCookies:hover {
+  background-color: rgb(39, 202, 101) !important;
+  border: 1px solid rgb(0, 0, 0) !important;
+  color: black !important;
 }
 
 /* ---- main styling for site ---- */
 
 #gav-quote {
     font-family: "Caveat Brush", sans-serif;
-    font-size: 2.25rem;
-    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    color: rgba(0, 0, 0, 1.0);
 }
 
 #cv-style{
     width: 100%;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .banner-style {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .main-div-style {
   background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
+  border-radius: 0;
   margin-bottom: 1rem;
 }
 
 /* ---- !important used to override default Bootstrap code ---- */
 
-.btn {
-    background-color: white !important;
-    font-family: "Roboto", sans-serif !important;
+.btn-style {
+  background-color: #036320!important;
+  color: white!important;
+  padding: 0.5rem;
+  border: 1px solid #ffffff!important;
+  border-radius: 0!important;
+  box-shadow: 10px 10px rgba(1, 36, 13, 0.75);
+  font-family: "Roboto", sans-serif !important;
 }
 
-.btn:hover {
-    background-color: rgb(0, 0, 0) !important;
-    color: white !important;
+.btn-style:hover {
+    background-color: rgb(39, 202, 101) !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+    color: black !important;
 }
 
 .alert {
-    border-radius: 10px !important;
+    border-radius: 0 !important;
     font-family: "Roboto", sans-serif !important;
 }
 
 .modal-style {
     font-family: "Roboto", sans-serif;
-    
 }
 
 .modal-edge {
-    border-radius: 10px !important;
+    border-radius: 0 !important;
 }
 
 .btn-modal-style {
-    border-radius: 10px !important;
-    border: 3px solid rgb(0, 0, 0) !important;
+    border-radius: 0 !important;
+    border: 1px solid rgba(255, 255, 255, 1.0) !important;
+    background-color: rgb(166, 3, 3) !important;
+    color: rgba(255, 255, 255, 1.0) !important;
+    font-family: "Roboto", sans-serif !important;
+    box-shadow: 10px 10px rgba(229, 6, 6, 0.75);
+}
+
+.btn-modal-style:hover {
+  background-color: rgb(255, 2, 2) !important;
 }
 
 .form-style {
-    background-image: linear-gradient(to bottom left, rgb(197, 197, 197), rgb(129, 129, 129) ,rgb(0, 0, 0));
-    border-radius: 10px;
+    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.25));
+    border-radius: 0;
 }
 
 #fullname {
-    border-radius: 10px;
+    border-radius: 0;
     margin-top: 10px;
     font-family: "Roboto", sans-serif;
 }
 
 #emailaddress {
-    border-radius: 10px;
+    border-radius: 0;
     margin-top: 10px;
     font-family: "Roboto", sans-serif;
 }
 #projectsummary {
-    border-radius: 10px;
+    border-radius: 0;
     margin-top: 10px;
     font-family: "Roboto", sans-serif;
 }
 
 #submit-button-style {
-    background-color: green;
+  background-color: #036320!important;
     color: white;
-    border-style: none;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    box-shadow: 10px 10px rgba(1, 36, 13, 0.75);
     font-family: "Roboto", sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100%;
+}
+
+#submit-button-style:hover {
+    background-color: rgb(39, 202, 101)!important;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
 }
 
 .footer-style {
@@ -100,7 +146,7 @@
     color: rgb(0, 0, 0);
     padding: 5px;
     font-family: "Roboto", sans-serif;
-    border-radius: 10px;
+    border-radius: 0;
 }
 
 .github-style {
@@ -136,19 +182,19 @@
 /* Styling for info divs on each page */
 .row-col9 {
   background-color: rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
+  border-radius: 0;
 }
 
 .row-col10 {
-  border: 2px solid rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
+  border: 3px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0;
 }
 
 /* Google map style */
 gmp-map {
   height: 400px;
   border: 2px solid rgba(0, 0, 0, 0.15);
-  filter: grayscale(100%);
+  filter: grayscale(110%);
   margin-top: 25px;
   overflow: hidden;
 }
@@ -157,8 +203,8 @@ gmp-map {
 .plc-style {
 width: 461px;
 height: 256px;
-border-radius: 10px;
-box-shadow: 2px 2px 5px rgb(0, 0, 0);
+border-radius: 0;
+box-shadow: 10px 10px rgba(0, 0, 0, 0.45);
 }
 
 /* portfolio page a link style */
@@ -168,23 +214,7 @@ box-shadow: 2px 2px 5px rgb(0, 0, 0);
   color: green
 }
 
-/* cookie banner and button styling */
-#cookieBanner {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.25);
-  color: black;
-  padding: 1.25rem;
-  margin-bottom: 1rem;
-  border-radius: 10px;
-}
 
-#acceptCookie {
-  background-color: #ffffff;
-  color: black;
-  padding: 0.5rem;
-  border: 2px solid #000000;
-  border-radius: 10px;
-}
 
 .icon,
 .text {
