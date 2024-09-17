@@ -43,6 +43,11 @@
 #gav-quote1 {
   font-family: "Caveat Brush", sans-serif;
   font-size: 1.75rem;
+  color: brown;
+}
+
+.kofi-text {
+  text-decoration: none !important;
 }
 
 #cv-style{
@@ -249,4 +254,29 @@ box-shadow: 10px 10px rgba(0, 0, 0, 0.45);
   display: inline-block;  
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+}
+
+/* kofi button */
+.showButton {
+  display: block;
+}
+
+.hideButton {
+  display: none;
+}
+
+#kofiButton {
+  position: fixed;
+  bottom: 150px;
+  right: 125px;
+  z-index: 9999;
+}
+
+@media screen and (max-width: 768px) {
+  #kofiButton {
+    position: fixed;
+    bottom: 150px;
+    right: 10px;
+    z-index: 9999;
+  }
 }

@@ -44,3 +44,41 @@ function checkCookie() {
     
 checkCookie();
 }
+
+// When the user scrolls down 250px from the top of the document, show the 'back to the top' button
+
+window.onscroll = function (e) { 
+    var kofiButton = document.getElementById("kofiButton");
+    console.log(kofiButton);
+    if (
+        document.body.scrollTop > 250 ||
+        document.documentElement.scrollTop > 250
+    ) {
+        kofiButton.classList.remove("hideButton");
+        kofiButton.classList.add("showButton");
+    } else {
+        kofiButton.classList.remove("showButton");
+        kofiButton.classList.add("hideButton");
+    }
+}
+
+const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('Buying me a Ko-Fi is a way of making a smaller donation to what I do. Only give what you can afford as donations are non-refundable. THANK YOU!', 'warning')
+  })
+}
+
