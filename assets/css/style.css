@@ -126,6 +126,15 @@
   border: 1px solid rgb(0, 0, 0) !important;
 }
 
+.btn-kofi-style {
+  border-radius: 0 !important;
+  border: 1px solid black !important;
+  background-color: brown !important;
+  color: rgba(255, 255, 255, 1.0) !important;
+  font-family: "Roboto", sans-serif !important;
+  
+}
+
 #form {
   width: 25rem;;
 }
@@ -190,6 +199,25 @@
     font-family: Roboto, sans-serif;
     text-decoration: none;
   }
+
+.alert-style {
+  border-radius: 0 !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.fade-in {
+  animation: fadeIn 1.25s;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
 
 /* ---- custom 404 error page styling ---- */
 
