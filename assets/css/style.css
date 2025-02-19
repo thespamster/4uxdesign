@@ -1,15 +1,25 @@
 /* Custom CSS */
-
-.body-style {
-    margin: 0 auto;
-    padding: 2%;
-    background-color: rgba(0, 0, 0, 0.05);
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+  /* set css display to flex */
+  display: flex;
+  /* set flex direction to column */
+  flex-direction: column;
+  /*
+      set minimum height to 100dvh of the viewport height.
+      footer will attach to bottom of body
+  */
+  min-height: 100dvh;
+  background-color: rgba(0, 0, 0, 0.05)!important;
 }
 
 /* cookie banner and button styling */
 #cookieBanner {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.15)!important;
+  background-color: rgba(0, 0, 0, 1)!important;
   color: black;
   padding: 1.25rem;
   margin-bottom: 1rem;
@@ -20,20 +30,17 @@
   background-color: #036320!important;
   color: white;
   padding: 0.5rem;
-  border: 1px solid #ffffff;
+  border-left: 3px solid #ffffff;
   border-radius: 0;
-  box-shadow: 10px 10px rgba(1, 36, 13, 0.75);
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Roboto", sans-serif;
 }
 
 #acceptCookies:hover {
   background-color: rgb(39, 202, 101) !important;
-  border: 1px solid rgb(0, 0, 0) !important;
   color: black !important;
 }
 
 /* ---- main styling for site ---- */
-
 #gav-quote {
     font-family: "Caveat Brush", sans-serif;
     font-size: 2.5rem;
@@ -72,6 +79,10 @@
 
 .inset-div-col2 {
   background-color: rgba(0, 0, 0, 0.15);
+}
+
+.color-white {
+  color: white;
 }
 
 .banner-style {
@@ -128,11 +139,15 @@
 
 .btn-kofi-style {
   border-radius: 0 !important;
-  border: 1px solid white !important;
+  border-left: 3px solid white !important;
   background-color: brown !important;
-  color: rgba(255, 255, 255, 1.0) !important;
+  color: white !important;
   font-family: "Roboto", sans-serif !important;
-  
+}
+
+.btn-kofi-style:hover {
+  background-color: rgb(232, 112, 6) !important;
+  color: black !important;
 }
 
 #form {
@@ -181,17 +196,28 @@
     color: black;
 }
 
-.footer-style {
-    background-color: rgba(0, 0, 0, 0.15);
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    font-family: "Roboto", sans-serif;
-    border-radius: 0;
+footer {
+  margin-top: auto;
+  background-color: rgba(0, 0, 0, 1);
+  font-family: "Roboto", sans-serif;
+  border-radius: 0;
 }
 
-.mastodon-link {
-  color: black;
-  text-decoration: none;
+.fix-footer {
+  
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 1080px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-attachment: fixed;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-image: url(/assets/img/home_office.webp);
+  min-height: 100dvh;
+  width: 100%;
+}
+
+.footer-border {
+  border-left: 1px solid white;
 }
 
 .github-style {
@@ -291,6 +317,16 @@ box-shadow: 10px 10px rgba(0, 0, 0, 0.45);
 
 .hideButton {
   display: none;
+}
+
+.temp-notice {
+
+  width: 50%;
+  height: 25rem;
+  background-color: white;
+  right: 25%;
+  top: 25%;
+  
 }
 
 #kofiButton {

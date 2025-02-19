@@ -78,7 +78,7 @@ const appendAlert = (message, type) => {
 const alertTrigger = document.getElementById('liveAlertBtn')
 if (alertTrigger) {
     alertTrigger.addEventListener('click', () => {
-        appendAlert('Buying me a Ko-Fi is a way of making a smaller donation to what I do. Only give what you can afford as donations are non-refundable. THANK YOU!', 'success')
+        appendAlert('Ko-Fi is a way of making a smaller donation to what I do. Only give what you can afford as donations are non-refundable. THANK YOU!', 'success')
     })
 }
 
