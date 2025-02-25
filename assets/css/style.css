@@ -1,4 +1,27 @@
 /* Custom CSS */
+
+
+.roboto-condensed-300 {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-condensed-400 {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-condensed-500 {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,7 +36,7 @@ body {
       footer will attach to bottom of body
   */
   min-height: 100dvh;
-  background-color: rgba(0, 0, 0, 0.05)!important;
+  background-color: rgba(0, 0, 0, 0.03)!important;
 }
 
 /* cookie banner and button styling */
@@ -22,20 +45,19 @@ body {
   background-color: rgba(0, 0, 0, 1)!important;
   color: black;
   padding: 1.25rem;
-  margin-bottom: 1rem;
   border-radius: 0;
 }
 
-#acceptCookies {
+#acceptCookie {
   background-color: #036320!important;
   color: white;
   padding: 0.5rem;
+  border: 0;
   border-left: 3px solid #ffffff;
   border-radius: 0;
-  font-family: "Roboto", sans-serif;
 }
 
-#acceptCookies:hover {
+#acceptCookie:hover {
   background-color: rgb(39, 202, 101) !important;
   color: black !important;
 }
@@ -47,7 +69,7 @@ body {
     color: rgba(0, 0, 0, 1.0);
 }
 
-#gav-quote1 {
+#kofi-icon-text {
   font-family: "Caveat Brush", sans-serif;
   font-size: 1.75rem;
   color: brown;
@@ -90,6 +112,10 @@ body {
   border-radius: 0;
 }
 
+.banner-text-style {
+  color: white;
+}
+
 .main-div-style {
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 0;
@@ -100,22 +126,14 @@ body {
 
 .btn-style {
   background-color: #036320!important;
-  color: white!important;
   padding: 0.5rem;
-  border: 1px solid #ffffff!important;
-  border-radius: 0!important;
-  box-shadow: 10px 10px rgba(1, 36, 13, 0.75);
-  font-family: "Roboto", sans-serif !important;
+  border: 0;
+  border-left: 3px solid #000000!important;
 }
 
 .btn-style:hover {
     background-color: rgb(39, 202, 101) !important;
-    border: 1px solid rgb(0, 0, 0) !important;
     color: black !important;
-}
-
-.modal-style {
-    font-family: "Roboto", sans-serif;
 }
 
 .modal-edge {
@@ -124,17 +142,15 @@ body {
 
 .btn-modal-style {
     border-radius: 0 !important;
-    border: 1px solid rgba(255, 255, 255, 1.0) !important;
+    border: 0;
+    border-left: 3px solid black !important;
     background-color: rgb(166, 3, 3) !important;
     color: rgba(255, 255, 255, 1.0) !important;
-    font-family: "Roboto", sans-serif !important;
-    box-shadow: 10px 10px rgba(92, 2, 2, 0.75);
 }
 
 .btn-modal-style:hover {
   background-color: rgb(255, 2, 2) !important;
   color: black !important;
-  border: 1px solid rgb(0, 0, 0) !important;
 }
 
 .btn-kofi-style {
@@ -142,7 +158,6 @@ body {
   border-left: 3px solid white !important;
   background-color: brown !important;
   color: white !important;
-  font-family: "Roboto", sans-serif !important;
 }
 
 .btn-kofi-style:hover {
@@ -151,67 +166,51 @@ body {
 }
 
 #form {
-  width: 25rem;;
+  width: 75%;
 }
 
 .form-style {
     width: 100%;
     min-height: 60dvh;
-    background-image: linear-gradient(to bottom left, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.05));
+    background-image: linear-gradient( white, rgba(0, 0, 0, 1));
     border-radius: 0;
 }
 
 #fullname {
     border-radius: 0;
     margin-top: 10px;
-    font-family: "Roboto", sans-serif;
 }
 
 #emailaddress {
     border-radius: 0;
     margin-top: 10px;
-    font-family: "Roboto", sans-serif;
 }
 #projectsummary {
     border-radius: 0;
     margin-top: 10px;
-    font-family: "Roboto", sans-serif;
 }
 
 #submit-button-style {
   background-color: #036320!important;
     color: white;
-    border: 1px solid #ffffff;
+    border: 0;
+    border-left: 3px solid #ffffff;
     border-radius: 0;
-    box-shadow: 10px 10px rgba(1, 36, 13, 0.75);
-    font-family: "Roboto", sans-serif;
-    margin-top: 10px;
-    margin-bottom: 10px;
     width: 100%;
 }
 
 #submit-button-style:hover {
     background-color: rgb(39, 202, 101)!important;
-    border: 1px solid rgb(0, 0, 0);
     color: black;
 }
 
 footer {
   margin-top: auto;
   background-color: rgba(0, 0, 0, 1);
-  font-family: "Roboto", sans-serif;
   border-radius: 0;
 }
 
 .fix-footer {
-  
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 1080px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-attachment: fixed;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  background-image: url(/assets/img/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg);
   min-height: 100dvh;
   width: 100%;
 }
@@ -220,15 +219,23 @@ footer {
   border-left: 1px solid white;
 }
 
+.bg-image {
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100dvh;
+  background-position: center; /* Center the image */
+  background-attachment: fixed;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-image: url(/assets/img/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg);
+}
+
 .github-style {
     color: green;
-    font-family: Roboto, sans-serif;
     text-decoration: none;
   }
 
 .alert-style {
   border-radius: 0 !important;
-  font-family: "Roboto", sans-serif;
 }
 
 .fade-in {
@@ -271,21 +278,38 @@ footer {
 
 /* Styling for info divs on each page */
 .row-col9 {
-  background-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.05);
   border-radius: 0;
+  border-right: 1px solid rgba(0, 0, 0, 1);
+  border-bottom: 1px solid black;
 }
 
 .row-col10 {
-  border: 3px solid rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.15);
   border-radius: 0;
+  border-left: 1px solid rgba(0, 0, 0, 1);
+  border-bottom: 1px solid black;
 }
 
-/* OSM map style */
-.osm-map {
+.div-col {
+  background-color: white;
+}
+
+/* apple map style */
+.apple-map {
   max-height: 500px;
-  border: 2px solid rgba(0, 0, 0, 0.15);
-  filter: grayscale(0%);
+  border: 0;
+  filter: grayscale(100%);
   overflow: hidden;
+}
+
+.map-border {
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.apple-map:hover, .apple-maps:focus {
+  filter: grayscale(0%);
 }
 
 /* placeholder image style */
@@ -293,7 +317,6 @@ footer {
 width: 461px;
 height: 256px;
 border-radius: 0;
-box-shadow: 10px 10px rgba(0, 0, 0, 0.45);
 }
 
 /* portfolio page a link style */
@@ -306,8 +329,6 @@ box-shadow: 10px 10px rgba(0, 0, 0, 0.45);
 .text {
   vertical-align: middle;
   display: inline-block;  
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
 }
 
 /* kofi button */
@@ -330,8 +351,12 @@ box-shadow: 10px 10px rgba(0, 0, 0, 0.45);
 #kofiButton {
   position: fixed;
   bottom: 150px;
-  right: 125px;
+  right: 75px;
   z-index: 9999;
+} 
+
+#portfolio {
+  background-color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -340,5 +365,15 @@ box-shadow: 10px 10px rgba(0, 0, 0, 0.45);
     bottom: 150px;
     right: 10px;
     z-index: 9999;
+  }
+
+  .row-col9 {
+    border-left: 0;
+    border-radius: 0;
+  }
+  
+  .row-col10 {
+    border-left: 0;
+    border-radius: 0;
   }
 }

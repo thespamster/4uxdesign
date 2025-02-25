@@ -25,7 +25,7 @@ function sendMail(contactForm) {
 document.getElementById("cookieBanner").style.display = "none"; // hides the cookie banner
     
 // function to set a cookie when the 'accept cookies' button is pressed
-document.getElementById("acceptCookies").addEventListener("click", function() {
+document.getElementById("acceptCookie").addEventListener("click", function() {
     console.log("Button clicked, cookie set");
     document.cookie = "cookiesAccepted=YES; expires=Thu 31 Dec 3000 12:00:00 UTC; path=/"; // sets a cookie
     document.getElementById("cookieBanner").style.display = "none";
@@ -46,7 +46,6 @@ checkCookie();
 // When the user scrolls down 250px from the top of the document, show the 'back to the top' button
 window.onscroll = function (e) { 
     var kofiButton = document.getElementById("kofiButton");
-    console.log(kofiButton);
     if (
         document.body.scrollTop > 250 ||
         document.documentElement.scrollTop > 250
@@ -81,4 +80,30 @@ if (alertTrigger) {
         appendAlert('Ko-Fi is a way of making a smaller donation to what I do. Only give what you can afford as donations are non-refundable. THANK YOU!', 'success')
     })
 }
+
+// fade cookie banner on scroll
+window.addEventListener('scroll', function() {
+    const fadeDiv = document.getElementById('cookieBanner');
+    const fadeDiv1 = document.getElementById('navMenu');
+    let scrollPosition = window.scrollY;
+    let maxScroll = 150;
+    let opacity = Math.round((1 - (scrollPosition / maxScroll)) * 100) / 100;
+    let opacity1 = Math.round((4-(scrollPosition / maxScroll)) * 100) / 100;
+    fadeDiv.style.opacity = opacity;
+    fadeDiv1.style.opacity = opacity1;
+    console.log(scrollPosition, opacity, opacity1);
+    if (opacity <= 0) {
+        fadeDiv.classList.add('d-none');
+    } else {
+        fadeDiv.classList.remove('d-none');
+        fadeDiv.classList.add('d-block');
+    }
+    if (opacity1 <= 0) {
+        fadeDiv1.classList.add('d-none');
+    } else {
+        fadeDiv1.classList.remove('d-none');
+        fadeDiv1.classList.add('d-block');
+    }
+});
+
 
