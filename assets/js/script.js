@@ -3,7 +3,7 @@ window.onload = function() {
 
 //  function to send an email via emailjs 
 function sendMail(contactForm) {
-    emailjs.send("gmail","4uxdesign", {
+    emailjs.send("service_q1hqwho", "4uxdesign", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "project_request": contactForm.projectsummary.value
@@ -17,7 +17,7 @@ function sendMail(contactForm) {
         }
     );
     alert("Thank you. I will get back to you within 48hrs.");
-    getElementById("project-form").reset();
+    getElementById("contactForm").reset();
     return false;
 }
 
