@@ -3,6 +3,7 @@ window.onload = function() {
 
 //  function to send an email via emailjs 
 function sendMail(contactForm) {
+    console.log('trying to send email');
     emailjs.send("service_q1hqwho", "4uxdesign", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
@@ -17,7 +18,7 @@ function sendMail(contactForm) {
         }
     );
     alert("Thank you. I will get back to you within 48hrs.");
-    getElementById("contactForm").reset();
+    // getElementById("messageMe").reset();
     return false;
 }
 
@@ -91,7 +92,6 @@ window.addEventListener('scroll', function() {
     let opacity1 = Math.round((4-(scrollPosition / maxScroll)) * 100) / 100;
     fadeDiv.style.opacity = opacity;
     fadeDiv1.style.opacity = opacity1;
-    console.log(scrollPosition, opacity, opacity1);
     if (opacity <= 0) {
         fadeDiv.classList.add('d-none');
     } else {
