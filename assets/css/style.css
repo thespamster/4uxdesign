@@ -85,8 +85,8 @@ body {
 }
 
 .img-size { 
-  max-width: 256px;
-  max-height: 256px;
+  width: 64px;
+  height: 64px;
 }
 
 .inset-div-style {
