@@ -2,7 +2,7 @@
 
 ![](assets/img/amiresponsive.png)
 
-A two page site for my business '4uxdesign' including a main page and a portfolio page.
+A single page site for my business '4uxdesign' including a a portfolio page and about me modal.
 
 ## Technologies
 
@@ -38,6 +38,7 @@ Available here on Github.
 
 ## Acknowledgments
 
+- [Nikita Kachanovsky on Unsplash](https://unsplash.com/@nkachanovskyyy) - Fantastic main image used for site. Check them out on Unsplash
 - [CV icon created by Freepik - Flaticon](https://www.flaticon.com/free-icons/profile) - Awesome icons for free. Check them out!
 - [Favicon Creator](https://favicon.io/)
 - [Compressnow](https://compressnow.com/) - image compression.
