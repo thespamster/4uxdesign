@@ -243,7 +243,6 @@ footer {
 }
 
 /* ---- custom 404 error page styling ---- */
-
 .style-404 {
     height: 100dvh;
     width: 100%;
@@ -251,20 +250,6 @@ footer {
     background: url('../img/404.png') no-repeat center;
     background-size: 256px 256px;
   } 
-  
-.style-text-404 {
-    width: 100%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-  }
-
-  .text-style-404 {
-    font-family: "Roboto", sans-serif;
-    color: rgb(0, 0, 0);
-  }
 
 /* Styling for info divs on each page */
 .row-col9 {
@@ -302,14 +287,7 @@ footer {
   filter: grayscale(0%);
 }
 
-/* placeholder image style */
-.plc-style {
-width: 461px;
-height: 256px;
-border-radius: 0;
-}
-
-/* portfolio page a link style */
+/* portfolio a link style */
 .pa-style {
   text-decoration: none;
   font-weight: bold;
@@ -328,14 +306,6 @@ border-radius: 0;
 
 .hideButton {
   display: none;
-}
-
-.temp-notice {
-  width: 100%;
-  background-color: white;
-  right: 0;
-  top: 25%;
-  
 }
 
 #kofiButton {
