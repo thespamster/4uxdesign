@@ -4,7 +4,7 @@ window.onload = function() {
 //  function to send an email via emailjs 
 function sendMail(contactForm) {
     console.log('trying to send email');
-    emailjs.send("service_q1hqwho", "4uxdesign", {
+    emailjs.send("default_service", "4uxdesign", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "project_request": contactForm.projectsummary.value
