@@ -151,8 +151,8 @@ body {
 }
 
 .btn-kofi-style:hover {
-  background-color: rgb(232, 112, 6) !important;
-  color: black !important;
+  background-color: rgb(232, 112, 6);
+  color: black;
 }
 
 #form {
