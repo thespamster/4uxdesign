@@ -1,13 +1,17 @@
 // waits for the html and css to load before running the JS
 window.onload = function() {
 
-//  function to send an email via emailjs 
-function sendMail(contactForm) {
+// add event listener for form submit
+const form = document.getElementById("messageMe");
+form.addEventListener("submit", sendMail);
+
+// function to send an email via emailjs
+function sendMail(event) {
     console.log('trying to send email');
     emailjs.send("default_service", "4uxdesign", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
+        "from_name": messageMe.name.value,
+        "from_email": messageMe.email.value,
+        "project_request": messageMe.projectsummary.value
     })
     .then(
         function(response) {
@@ -17,8 +21,8 @@ function sendMail(contactForm) {
             console.log("FAILED", error);
         }
     );
-    alert("Thank you. I will get back to you within 48hrs.");
-    // getElementById("messageMe").reset();
+    alert("Thank you. I will get back to you within 48hrs."); 
+    document.getElementById("messageMe").reset();
     return false;
 }
 

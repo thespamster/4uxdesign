@@ -21,11 +21,11 @@
     </script>
     <script type="text/javascript">
         (function(){
-           emailjs.init({
-             publicKey: "9aycvO4U6QlcS3Fzn",
-           });
+            emailjs.init({
+                publicKey: "9aycvO4U6QlcS3Fzn",
+            });
         })();
-     </script>
+    </script>
 
     <!-- browser tab title and a custom icon for the website -->
     <title>4uxdesign.com</title>
@@ -401,13 +401,13 @@
     <div class="row g-0 d-flex justify-content-center" id="contact">
         <div class="col-12 d-flex justify-content-center align-items-center form-style">
             <div id="form">
-                <form id="messageMe" onsubmit="return sendMail(this);" method="POST">
+                <form id="messageMe">
                     <input type="text" name="name" id="fullname" class="form-control roboto-condensed-300"
                         placeholder="Your Name" required>
                     <input type="email" name="email" id="emailaddress" class="form-control roboto-condensed-300"
                         placeholder="Your Email" required>
                     <textarea rows="10" cols="25" name="projectsummary" id="projectsummary"
-                        class="roboto-condensed-300 form-control" placeholder="This section is currently being updated, please use the contact details below..."
+                        class="roboto-condensed-300 form-control" placeholder="Brief Project Details..."
                         required></textarea>
                     <button type="submit" id="submit-button-style"
                         class="fw-bold roboto-condensed-300 text-center my-3">Send Project Request</button>
