@@ -1,6 +1,6 @@
 /* Custom CSS */
 
-
+/* set text font styles */
 .roboto-condensed-300 {
   font-family: "Roboto Condensed", serif;
   font-optical-sizing: auto;
@@ -22,6 +22,7 @@
   font-style: normal;
 }
 
+/* body styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -29,8 +30,10 @@ body {
   
   /* set css display to flex */
   display: flex;
+
   /* set flex direction to column */
   flex-direction: column;
+
   /*
       set minimum height to 100dvh of the viewport height.
       footer will attach to bottom of body
@@ -63,7 +66,6 @@ body {
 }
 
 /* ---- main styling for site ---- */
-
 #kofi-icon-text {
   font-family: "Caveat Brush", sans-serif;
   font-size: 1.75rem;
@@ -92,13 +94,9 @@ body {
   color: white;
 }
 
-.banner-style {
+.navbar-style {
   width: 100%;
   border-radius: 0;
-}
-
-.banner-text-style {
-  color: white;
 }
 
 .main-div-style {
@@ -189,6 +187,7 @@ body {
     color: black;
 }
 
+/* footer styles */
 footer {
   margin-top: auto;
   background-color: rgba(0, 0, 0, 1);
@@ -202,6 +201,13 @@ footer {
 
 .footer-border {
   border-left: 1px solid white;
+}
+
+/* center icons and text in footer */
+.icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;  
 }
 
 .bg-image {
@@ -287,11 +293,6 @@ footer {
   text-decoration: none;
   font-weight: bold;
   color: green
-}
-.icon,
-.text {
-  vertical-align: middle;
-  display: inline-block;  
 }
 
 /* kofi button */
