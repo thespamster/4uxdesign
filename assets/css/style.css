@@ -216,6 +216,7 @@ footer {
   background-attachment: fixed;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  -webkit-background-size:cover; 
   background-image: url(/assets/img/nikita-kachanovsky-OVbeSXRk_9E.webp);
 }
 
