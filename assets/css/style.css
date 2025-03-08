@@ -213,12 +213,12 @@ footer {
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 100dvh;
   background-position: center; /* Center the image */
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   -webkit-background-size:cover; 
-  /* background-image: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E.webp'); */
-  background-image: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E-unsplash-compressed.jpg');
+  background-image: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E.webp');
+  /* background-image: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E-unsplash-compressed.jpg'); */
 }
 
 .alert-style {
