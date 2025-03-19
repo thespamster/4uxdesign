@@ -213,7 +213,7 @@ footer {
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 100dvh;
   background-position: center; /* Center the image */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   background-image: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E.webp');
