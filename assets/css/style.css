@@ -216,7 +216,8 @@ footer {
   background-attachment: fixed;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
-  -webkit-background-size:cover; 
+  -webkit-transform: translate3d(0, 0, 0);
+  
   background-image: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E.webp');
   /* background-image: url('/assets/img/nikita-kachanovsky-OVbeSXRk_9E-unsplash-compressed.jpg'); */
 }
