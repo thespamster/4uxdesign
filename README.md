@@ -42,7 +42,6 @@ Safari on iPhone 14 iOS Version 17.4.1 and Google Dev Tools.
 ## Author
 
 Gavin Brown
-[Linkedin Profile](https://www.linkedin.com/in/gavinwbrown/)
 
 e: gav_tech@icloud.com
 
