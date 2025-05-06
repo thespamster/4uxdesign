@@ -2,6 +2,8 @@
 
 ![](assets/img/img_4uxdesign.webp)
 
+** This site has been archived and a new site is being designed **
+
 A substantial redesign has changed the site layout from a 2 page site to a  single page.
 The banner has been removed and replaced with a large colour background image.
 The layout now has a cookie banner that fades on scroll revealing the main menu behind.
@@ -42,7 +44,7 @@ Safari on iPhone 14 iOS Version 17.4.1 and Google Dev Tools.
 Gavin Brown
 [Linkedin Profile](https://www.linkedin.com/in/gavinwbrown/)
 
-e: gavin.brown@4uxdesign.com
+e: gav_tech@icloud.com
 
 m: 07423463521
 
